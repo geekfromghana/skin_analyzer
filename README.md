@@ -216,7 +216,7 @@ Invoke-RestMethod -Uri "http://127.0.0.1:8001/analyze" -Method Post -Headers $he
 
 A ready-to-import Postman collection is included in the project:
 ```
-postman/Mobile Image Analysis API.postman_collection.json
+face analyzer.json
 ```
 
 **Usage:**
