@@ -76,8 +76,8 @@ Pillow==10.4.0
 ## 🚀 Getting Started
 
 ### 1) Clone the repository
-```bash
-git clone https://github.com/<your-username>/mobile-ai-backend.git
+```GITHUB CLI
+gh repo clone geekfromghana/skin_analyzer
 cd skin-analyzer
 ```
 
