@@ -1,0 +1,120 @@
+{
+  "info": {
+    "name": "face analyser",
+    "description": null,
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "upload",
+      "item": null,
+      "request": {
+        "auth": {
+          "type": null,
+          "apikey": null,
+          "awsv4": null,
+          "basic": null,
+          "bearer": null,
+          "digest": null,
+          "hawk": null,
+          "ntlm": null,
+          "oauth1": null,
+          "oauth2": null
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "testmic1212",
+            "type": "Header",
+            "disabled": false
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "raw": null,
+          "options": null,
+          "formdata": [
+            {
+              "key": "file",
+              "value": "",
+              "contentType": null,
+              "type": "file",
+              "src": [
+                "C:\\Users\\ghhaickjo\\OneDrive - NESTLE\\Pictures\\johnny_haick_pp-removebg-preview.png"
+              ],
+              "disabled": false
+            },
+            {
+              "key": null,
+              "value": null,
+              "contentType": null,
+              "type": "text",
+              "src": null,
+              "disabled": true
+            }
+          ],
+          "urlencoded": null,
+          "file": null
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8001/upload",
+          "protocol": null,
+          "host": null,
+          "path": null,
+          "query": [],
+          "variable": null
+        }
+      }
+    },
+    {
+      "name": "analyze",
+      "item": null,
+      "request": {
+        "auth": {
+          "type": null,
+          "apikey": null,
+          "awsv4": null,
+          "basic": null,
+          "bearer": null,
+          "digest": null,
+          "hawk": null,
+          "ntlm": null,
+          "oauth1": null,
+          "oauth2": null
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "testmic1212",
+            "type": "Header",
+            "disabled": false
+          }
+        ],
+        "body": {
+          "mode": null,
+          "raw": "{\"image_id\":\"18115c1e94f14ce48f8e73f17b1b89b5\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          },
+          "formdata": null,
+          "urlencoded": null,
+          "file": null
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8001/analyze",
+          "protocol": null,
+          "host": null,
+          "path": null,
+          "query": [],
+          "variable": null
+        }
+      }
+    }
+  ],
+  "variable": null,
+  "auth": null
+}

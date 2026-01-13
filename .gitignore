@@ -1,0 +1,9 @@
+
+ni .gitignore -Force
+Add-Content .gitignore ".venv/"
+Add-Content .gitignore "__pycache__/"
+Add-Content .gitignore "*.pyc"
+Add-Content .gitignore ".env"
+Add-Content .gitignore ".DS_Store"
+Add-Content .gitignore ".idea/"
+Add-Content .gitignore ".vscode/"
